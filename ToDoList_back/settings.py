@@ -79,7 +79,10 @@ ALLOWED_HOSTS = ["localhost","127.0.0.1","*"]
 # DATABASES['default'] =  dj_database_url.config()
 #updated
 #local
-DATABASES = {'default': dj_database_url.config(default='postgresql://diacrami:vHAnn8ubMoCrIoLkuxk7EObdjC4nEzjR@dpg-crkq07m8ii6s73851ltg-a.virginia-postgres.render.com/todolistdb_mr8s')}
+#DATABASES = {'default': dj_database_url.config(default='postgresql://diacrami:vHAnn8ubMoCrIoLkuxk7EObdjC4nEzjR@dpg-crkq07m8ii6s73851ltg-a.virginia-postgres.render.com/todolistdb_mr8s')}
+
+DATABASES = {'default': dj_database_url.config(default='postgresql://diacrami:ZhRwiCN7ezIywRLzkx3fLRsd9mYL8i0N@dpg-cs9t2l88fa8c73cgnc3g-a.virginia-postgres.render.com/todolistdb_kuzg')}
+
 #prod
 #DATABASES = {'default': dj_database_url.config(default='postgresql://diacrami:vHAnn8ubMoCrIoLkuxk7EObdjC4nEzjR@dpg-crkq07m8ii6s73851ltg-a/todolistdb_mr8s')}
 
